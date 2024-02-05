@@ -1,52 +1,51 @@
 ## Conditional Statements
 
 JavaScript conditional statements are used to make decisions in code based on certain conditions. These statements allow your program to execute different blocks of code depending on whether a specified condition evaluates to true or false.
+
 In JavaScript we have the following conditional statements:
 
--   Use **if** to specify a block of code to be executed, if a specified condition is true
--   Use **else** to specify a block of code to be executed, if the same condition is false
--   Use **else if** to specify a new condition to test, if the first condition is false
--   Use **switch** to specify many alternative blocks of code to be executed
+-   The **if** is used to specify a block of code to be executed, if a specified condition is true
+-   The **else** is used to specify a block of code to be executed, if the same condition is false
+-   The **else if** is used to specify a new condition to test, if the first condition is false
+-   The **switch** is used to specify many alternative blocks of code to be executed
 
-The most common types of conditional statements in JavaScript are **if**, **else if**, and **else**. Here's an introduction to each:
-
-#### 1. The **if** statement:
+### 1. The **if** statement:
 
 The if statement is the fundamental conditional statement. It allows you to execute a block of code if a specified condition is true. The basic syntax is as follows:
 
-    ```js
-    if (condition) {
-        //  block of code to be executed if the condition is true
-    }
-    ```
+```js
+if (condition) {
+    //  block of code to be executed if the condition is true
+}
+```
 
-#### 2. The **else** statement:
+### 2. The **else** statement:
 
 The else statement is used in conjunction with an if statement to specify a block of code to be executed if the condition in the if statement is false. The syntax is:
 
-    ```js
-    if (condition) {
-        //  block of code to be executed if the condition is true
-    } else {
-        //  block of code to be executed if the condition is false
-    }
-    ```
+```js
+if (condition) {
+    //  block of code to be executed if the condition is true
+} else {
+    //  block of code to be executed if the condition is false
+}
+```
 
-#### 3. The **else if** statement:
+### 3. The **else if** statement:
 
 The else if statement allows you to specify additional conditions to be tested if the previous conditions in the if and else if statements are false. It is used when you have multiple conditions to check. The syntax is:
 
-    ```js
-    if (condition1) {
-        //  block of code to be executed if condition1 is true
-    } else if (condition2) {
-        //  block of code to be executed if the condition1 is false and condition2 is true
-    } else {
-        //  block of code to be executed if the condition1 is false and condition2 is false
-    }
-    ```
+```js
+if (condition1) {
+    //  block of code to be executed if condition1 is true
+} else if (condition2) {
+    //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+    //  block of code to be executed if the condition1 is false and condition2 is false
+}
+```
 
-#### 4. The **Switch** statement
+### 4. The **switch** statement
 
 Use the switch statement to select one of many code blocks to be executed. It allows you to compare the value of an expression against multiple possible case values and execute code blocks based on the matching case. The execution inside the switch expression works as follows:
 
@@ -57,19 +56,19 @@ Use the switch statement to select one of many code blocks to be executed. It al
 
 The syntax is:
 
-    ```js
-    switch (expression) {
-        case value1:
-            // code to be executed if expression === value1
-            break;
-        case value2:
-            // code to be executed if expression === value2
-            break;
-        // additional cases as needed
-        default:
-        // code to be executed if none of the cases match
-    }
-    ```
+```js
+switch (expression) {
+    case value1:
+        // code to be executed if expression === value1
+        break;
+    case value2:
+        // code to be executed if expression === value2
+        break;
+    // additional cases as needed
+    default:
+    // code to be executed if none of the cases match
+}
+```
 
 ##### The **break** Keyword
 
