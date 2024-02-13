@@ -29,7 +29,7 @@ Function **arguments** are the values received by the function when it is invoke
 
 Inside the function, the arguments (the parameters) behave as local variables.
 
-![JavaScript Function visualized](./images/JavaScript_functions_visualized.png)
+![JavaScript Function visualized](./Images/js_functions_visualized.png)
 
 ## Function Definitions
 
@@ -258,5 +258,5 @@ var fn = function () {
 };
 
 fn(); //logs 'number'
-console.log(typeof n);
+console.log(typeof n); //logs 'undefined'
 ```

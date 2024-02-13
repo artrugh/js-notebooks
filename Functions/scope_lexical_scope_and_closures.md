@@ -92,7 +92,7 @@ obj.arrowFunc(); // Executes with arrow function
 
 ## Closures
 
-Closures are a fundamental concept related to the scope and the way functions work. A closure is created when a function is defined within another function (the outer function) and has access to the outer function's variables. Even after the outer function has finished executing, the inner function maintains access to the outer function's scope chain. In effect closures enable functions to remember and access variables of their parent scope.
+Closures are a fundamental concept related to the scope and the way functions work. A closure is created when a function is defined within another function (the outer function) and has access to the outer function's variables. Even after the outer function has finished executing, the inner function maintains access to the outer function's scope chain. In effect closures enable functions to remember and access variables of their parent scope. More detailed information about closures can be found [MDN Web Docs\_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures).
 
 Closures are widely used in JavaScript for various purposes like maintaining state in event handlers, implementing private variables and methods, and creating modules.
 
@@ -105,3 +105,24 @@ Closures are widely used in JavaScript for various purposes like maintaining sta
 3. **Encapsulation**: Closures allow for encapsulation and data privacy. You can define variables in the outer function that are inaccessible from outside, but can still be accessed and modified by the inner function. This is commonly used in JavaScript to create private variables and methods.
 
 4. **Persistent Scope**: Closures "remember" their lexical environments. Even after the outer function has completed execution and its local variables have gone out of scope, the inner function maintains access to those variables.
+
+Example:
+
+1. lexical scoping with var, let and const as function scope variables:
+
+```js
+function parentFn() {
+    var localVariable = "Local variable defined in the parent with var keyword";
+    let localES6Variable =
+        "ES6 local variable defined in the parent with let keyword";
+    const localConstant = "ES6 local constant defined in the parent";
+    function innerFn() {
+        // innerFn() is the inner function, that forms the closure
+        console.log(localVariable); // use variable declared in the parent function
+        console.log(localES6Variable); // use variable declared in the parent function
+        console.log(localConstant); // use variable declared in the parent function
+    }
+    innerFn();
+}
+parentFn();
+```
