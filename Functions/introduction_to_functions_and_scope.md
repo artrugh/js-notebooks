@@ -145,7 +145,7 @@ myFunc();
 // 5 (for 'cons' by Function constructor (global scope))
 ```
 
-Functions defined by function expressions and function declarations are parsed only once, while a function defined by the **Function()** constructor parses the string passed to it each and every time the constructor is called. Although a function expression creates a closure every time, the function body is not reparsed, so function expressions are still faster than new Function(...). Therefore the **Function()** constructor should generally be avoided whenever possible.
+Functions defined by function expressions and function declarations are parsed only once, while a function defined by the **Function()** constructor parses the string passed to it each and every time the constructor is called. Although a function expression creates a closure every time, the function body is not re-parsed, so function expressions are still faster than new Function(...). Therefore the **Function()** constructor should generally be avoided whenever possible.
 
 A function declaration may be unintentionally turned into a function expression when it appears in an expression context.
 
