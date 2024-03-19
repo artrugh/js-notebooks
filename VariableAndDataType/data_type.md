@@ -1,24 +1,24 @@
 ## Data Type
 
-Variables in JavaScript can hold various types of data such as strings, numbers, booleans, objects, or even functions. 
+Variables in JavaScript can hold various types of data such as strings, numbers, booleans, objects, or even functions.
 
 **Data types** define the types of values that can be used in the language. JavaScript has several data types:
 
-- Primitive Data Types:
-Number: Represents both integer and floating-point numbers. Example: 42, 3.14
+-   Primitive Data Types:
+    Number: Represents both integer and floating-point numbers. Example: 42, 3.14
 
-    - String: Represents sequences of characters, enclosed in either single quotes (') or double quotes ("). Example: 'Hello', "JavaScript"
+        - String: Represents sequences of characters, enclosed in either single quotes (') or double quotes ("). Example: 'Hello', "JavaScript"
 
-    - Boolean: Represents a logical value indicating true or false.
+        - Boolean: Represents a logical value indicating true or false.
 
-    - Null: Represents the intentional absence of any object value. It's a special value indicating the absence of value or no object.*
+        - Null: Represents the intentional absence of any object value. It's a special value indicating the absence of value or no object.*
 
-    - Undefined: Indicates a variable that has been declared but hasn’t been assigned a value. It's the default value of uninitialized variables.
+        - Undefined: Indicates a variable that has been declared but hasn’t been assigned a value. It's the default value of uninitialized variables.
 
-    - Symbol (added in ECMAScript 2015): Represents a unique identifier.
+        - Symbol (added in ECMAScript 2015): Represents a unique identifier.
 
-- Non-Primitive Data Types:
-    - Object: Represents a collection of key-value pairs. Objects are more complex and can hold various data and functionalities. Examples include arrays, functions, and more.
+-   Non-Primitive Data Types:
+    -   Object: Represents a collection of key-value pairs. Objects are more complex and can hold various data and functionalities. Examples include arrays, functions, and more.
 
 ```js
 // Number
@@ -26,7 +26,7 @@ let age = 25;
 let temperature = 98.6;
 
 // String
-let greeting = 'Hello, World!';
+let greeting = "Hello, World!";
 let username = "Alice";
 
 // Boolean
@@ -40,13 +40,13 @@ let nullValue = null;
 let undefinedValue;
 
 // Symbol (ECMAScript 2015)
-let uniqueID = Symbol('id');
+let uniqueID = Symbol("id");
 
 // Object
-let person = { name: 'John', age: 30 };
-let fruits = ['apple', 'banana', 'orange'];
-let sayHello = function() {
-  console.log('Hello!');
+let person = { name: "John", age: 30 };
+let fruits = ["apple", "banana", "orange"];
+let sayHello = function () {
+    console.log("Hello!");
 };
 ```
 
