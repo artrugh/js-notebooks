@@ -6,7 +6,7 @@ Variables in JavaScript can hold various types of data such as strings, numbers,
 
 ### Primitive Data Types:
 
-in programming languages are called "primitive" because they are fundamental, basic building blocks upon which more complex data types and structures are built. They are not composed of smaller parts and are not defined in terms of other data types.
+In programming languages are called "primitive" because they are fundamental, basic building blocks upon which more complex data types and structures are built. They are not composed of smaller parts and are not defined in terms of other data types.
 
 **Simple Structure**:
 
@@ -26,7 +26,7 @@ in programming languages are called "primitive" because they are fundamental, ba
 -   When you assign a primitive value to a variable, a copy of that value is made and stored in the variable.
 -   Operations on primitive values work directly with the actual value stored in memory.
 
-In Java Script there are 6 Primitve Data Types:
+In Java Script there are 6 Primitive Data Types:
 
 -   **Number**: Represents both integer and floating-point numbers. Example: 42, 3.14
 
@@ -65,7 +65,7 @@ let uniqueID = Symbol("id");
 
 ### Non-Primitive (Reference) Data Types:
 
-Object: Represents a collection of key-value pairs. Objects are more complex and can hold various data and functionalities. Examples include arrays, functions, and more. Objects are Reference Data Types - they hold references to values stored in memory. Manipulating a reference data type means manupulating reference to the value not the value itself.
+Object: Represents a collection of key-value pairs. Objects are more complex and can hold various data and functionalities. Examples include arrays, functions, and more. Objects are Reference Data Types - they hold references to values stored in memory. Manipulating a reference data type means manipulating reference to the value not the value itself.
 
 **Complex Structure**:
 
@@ -103,13 +103,13 @@ While typeof null returns 'object', it's actually a primitive value. The null va
 
 This behavior of typeof `null` being 'object' is considered a quirk or historical bug in JavaScript, but `null` itself is not an object in the traditional sense. It's a unique primitive value in the language.
 
-#### Null vs. Undefinied
+#### Null vs. Undefined
 
 In JavaScript, `null`, `undefined` often sources of confusion due to their similar roles.
 
 A valid value in JavaScript, `null` is a primitive data type explicitly assigned to a variable to indicate that it has no value or that it's intentionally empty.
 
-Also an primitive data type `undefined` epresents the absence of value due to variables being declared but not assigned, or accessing nonexistent properties or variables. It's also the default return value of functions if no return value is specified.
+Also an primitive data type `undefined` represents the absence of value due to variables being declared but not assigned, or accessing nonexistent properties or variables. It's also the default return value of functions if no return value is specified.
 
 ### `typeof` operator
 
